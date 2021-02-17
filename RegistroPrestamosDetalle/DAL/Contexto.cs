@@ -11,6 +11,7 @@ namespace RegistroPrestamosDetalle.DAL
     {
         public DbSet<Personas> personas { get; set; }
         public DbSet<Prestamos> prestamos { get; set; }
+        public DbSet<Moras> moras { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
